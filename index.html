@@ -666,7 +666,7 @@
 <body>
     <div class="presentation">
         <div class="progress" id="progress"></div>
-        <div class="slide-counter" id="slideCounter">1 / 16</div>
+        <div class="slide-counter" id="slideCounter">1 / 17</div>
         <div class="fullscreen-hint" id="fullscreenHint">Presiona F para pantalla completa</div>
 
         <!-- ===================== SLIDE 1: PORTADA (DARK) ===================== -->
@@ -946,15 +946,29 @@
             <p style="margin-top: 20px; font-size: 16px; color: #0D1B2A; font-weight: 600;">Crecimiento de <span style="color: #16a34a;">8x</span> en ventas. Pantallazo real de Shopify.</p>
         </div>
 
-        <!-- ===================== SLIDE 13: GARANTIA (DARK) ===================== -->
+        <!-- ===================== SLIDE 13: CLIENTES (DARK) ===================== -->
         <div class="slide slide-dark" id="slide13">
+            <span class="section-tag">Marcas que confían en nosotros</span>
+            <h2 style="margin-bottom: 50px;">Hemos trabajado con <span class="highlight">marcas increíbles</span></h2>
+            <div style="display: flex; gap: 50px; align-items: center; justify-content: center; flex-wrap: wrap; max-width: 1000px;">
+                <img src="logo-leonisa.jpg" alt="Leonisa" style="height: 60px; filter: brightness(0) invert(1); opacity: 0.9;">
+                <img src="logo-ciclico.webp" alt="Cíclico" style="height: 50px; filter: brightness(0) invert(1); opacity: 0.9;">
+                <img src="logo-cliente2.png" alt="ONCE" style="height: 45px; filter: brightness(0) invert(1); opacity: 0.9;">
+                <img src="logo-parchita.avif" alt="Parchita" style="height: 55px; filter: brightness(0) invert(1); opacity: 0.9;">
+                <img src="logo-cliente5.avif" alt="Cliente" style="height: 55px; filter: brightness(0) invert(1); opacity: 0.9;">
+            </div>
+            <p class="subtitle" style="margin-top: 50px; font-size: 18px;">+120 marcas acompañadas en Colombia</p>
+        </div>
+
+        <!-- ===================== SLIDE 14: GARANTIA (DARK) ===================== -->
+        <div class="slide slide-dark" id="slide14">
             <span class="section-tag">Garantía</span>
             <h2>Si cumples con lo acordado y en 90 días el canal no está activo y vendiendo,</h2>
             <h1 style="margin-top: 20px;"><span class="highlight">seguimos trabajando sin costo</span> hasta lograrlo.</h1>
         </div>
 
-        <!-- ===================== SLIDE 14: INVERSION (LIGHT) ===================== -->
-        <div class="slide slide-light" id="slide14">
+        <!-- ===================== SLIDE 15: INVERSION (LIGHT) ===================== -->
+        <div class="slide slide-light" id="slide15">
             <span class="section-tag">Inversión</span>
             <h2>Tu <span class="highlight">inversión:</span></h2>
             <div class="pricing-card">
@@ -969,16 +983,16 @@
             </div>
         </div>
 
-        <!-- ===================== SLIDE 15: CUPOS (DARK) ===================== -->
-        <div class="slide slide-dark" id="slide15">
+        <!-- ===================== SLIDE 16: CUPOS (DARK) ===================== -->
+        <div class="slide slide-dark" id="slide16">
             <span class="section-tag">Disponibilidad</span>
             <h1><span class="highlight">5 marcas</span> para el grupo Marzo-Mayo.</h1>
             <p class="subtitle" style="font-size: 22px; margin-top: 20px;">Cuando se llenan, cerramos.</p>
             <div class="urgency-badge">Cupos limitados</div>
         </div>
 
-        <!-- ===================== SLIDE 16: PREGUNTA FINAL (DARK) ===================== -->
-        <div class="slide slide-dark" id="slide16">
+        <!-- ===================== SLIDE 17: PREGUNTA FINAL (DARK) ===================== -->
+        <div class="slide slide-dark" id="slide17">
             <img src="logo-la-real.svg" alt="LA REAL" style="width: 100px; margin-bottom: 50px; opacity: 0.9;">
             <h2 style="font-weight: 500; color: #94A3B8; font-size: 28px; margin-bottom: 30px;">¿Quieres que ecommerce sea un experimento...</h2>
             <h1>o una nueva línea de negocio <span class="highlight">real?</span></h1>
@@ -993,7 +1007,7 @@
 
     <script>
         let currentSlide = 1;
-        const totalSlides = 16;
+        const totalSlides = 17;
 
         function showSlide(n) {
             document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
